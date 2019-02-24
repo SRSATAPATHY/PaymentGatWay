@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class GolbalControler {
 	@RequestMapping(value="/")
 	public String global() {
-		System.out.println("enter");
+		System.out.println("enter to globalControler");
 		return "index";
 		
 	}
